@@ -1,0 +1,48 @@
+/* App.css */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between; /* Space between logo and icons */
+  align-items: flex-start; /* Align items to start */
+  padding: 24px 22px; /* Adjust the padding as necessary */
+  z-index: 1000; /* High z-index to ensure it's on top */
+  box-sizing: border-box;
+}
+
+.logo {
+  /* Your logo styles here */
+  font-family: 'SansSerifBldFLF', Arial, sans-serif;
+  font-size: 24px;
+  font-weight: 550;
+  /* Add any other styling for your logo here */
+}
+
+.right-side {
+  display: flex;
+  justify-content: flex-end; /* Keep the right-side items together */
+  align-items: center; /* Align items vertically */
+  gap: 25px; /* Space between items */
+}
+
+
+.search-icon {
+  width: 25px;
+  height: 25px;
+  background: url('/src/assets/images/search.svg') no-repeat center center;
+  cursor: pointer;
+}
+.profile-pic {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  background: url('/src/assets/images/pfp.png') no-repeat center center;
+  background-size: cover;
+}
+
+
+.main-content {
+  padding-top: 100px; /* Ensure this is enough space to not overlap with the header */
+}

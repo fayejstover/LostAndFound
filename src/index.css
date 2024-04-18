@@ -1,0 +1,12 @@
+/* index.css */
+
+body, h1, h2, p, ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  /* No background image here */
+}
